@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Microbiome-ML-Benchmark
-=======
 # Microbiome-ML-Benchmark
 This repository provides a systematic benchmarking framework for evaluating classical machine learning and modern foundation models in microbiome-based disease prediction.
 
@@ -16,4 +13,4 @@ The repository is organized to ensure reproducibility of the benchmarking result
 - results: Comprehensive performance metrics (AUROC) across intra-cohort, cross-cohort and LOSO validation scenarios.
 - interpretability: Scripts and associated data for evaluating biomarker concordance and signal stability between model pairs.
 - figures: Visualizations of benchmarking results, including performance boxplot, heatmaps and biomarker overlap distributions.
->>>>>>> 777ea19 (Update README)
+
