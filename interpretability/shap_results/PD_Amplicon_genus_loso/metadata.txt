@@ -1,0 +1,23 @@
+LOSO SHAP Calculation Results
+============================================================
+Disease: PD
+Data type: Amplicon
+Taxonomic level: genus
+Number of cohorts: 6
+Cohorts: [1 2 3 4 5 6]
+Total samples: 1402
+Number of features: 280
+Label mapping: {'Case': 0, 'Control': 1}
+Target class: 'Case' (encoded as 0)
+Preprocessing: None (raw data)
+Random state: 42
+Background samples: 128
+Kernel SHAP samples: 50
+
+Output files:
+  - shap_elasticnet.npy / .csv
+  - shap_rf.npy / .csv
+  - shap_tabpfn.npy / .csv
+  - feature_names.npy
+  - sample_info.csv
+  - global_importance_*.csv

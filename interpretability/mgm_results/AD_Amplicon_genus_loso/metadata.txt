@@ -1,0 +1,19 @@
+LOSO MGM Attention Results
+============================================================
+Disease: AD
+Data type: Amplicon
+Taxonomic level: genus
+Number of cohorts: 4
+Cohorts: [1 2 3 4]
+Total samples: 378
+Number of features: 109
+Label mapping: {'Case': 0, 'Control': 1}
+Target class: 'Case' (encoded as 0)
+Preprocessing: None (raw data)
+Random state: 42
+
+Output files:
+  - attention_mgm.npy / .csv
+  - feature_names.npy
+  - sample_info.csv
+  - global_importance_mgm.csv

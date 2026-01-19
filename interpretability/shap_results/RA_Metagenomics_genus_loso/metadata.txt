@@ -1,0 +1,23 @@
+LOSO SHAP Calculation Results
+============================================================
+Disease: RA
+Data type: Metagenomics
+Taxonomic level: genus
+Number of cohorts: 3
+Cohorts: [1 2 3]
+Total samples: 404
+Number of features: 104
+Label mapping: {'Case': 0, 'Control': 1}
+Target class: 'Case' (encoded as 0)
+Preprocessing: None (raw data)
+Random state: 42
+Background samples: 128
+Kernel SHAP samples: 50
+
+Output files:
+  - shap_elasticnet.npy / .csv
+  - shap_rf.npy / .csv
+  - shap_tabpfn.npy / .csv
+  - feature_names.npy
+  - sample_info.csv
+  - global_importance_*.csv

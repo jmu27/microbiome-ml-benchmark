@@ -1,0 +1,19 @@
+LOSO MGM Attention Results
+============================================================
+Disease: CD
+Data type: Metagenomics
+Taxonomic level: genus
+Number of cohorts: 5
+Cohorts: [1 2 3 4 5]
+Total samples: 564
+Number of features: 108
+Label mapping: {'Case': 0, 'Control': 1}
+Target class: 'Case' (encoded as 0)
+Preprocessing: None (raw data)
+Random state: 42
+
+Output files:
+  - attention_mgm.npy / .csv
+  - feature_names.npy
+  - sample_info.csv
+  - global_importance_mgm.csv
