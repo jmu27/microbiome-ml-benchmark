@@ -10,7 +10,6 @@ This repository provides a systematic benchmarking framework for evaluating clas
 The repository is organized to ensure reproducibility of the benchmarking results:
 - data: Contains raw datasets, pre-processed (filtered) data, and GPT-generated embeddings
 - scripts: Modular implementation of the core pipeline, including feature selection, transformation, predictive modeling, and batch effect correction.
-- results: Comprehensive performance metrics (AUROC) across intra-cohort, cross-cohort and LOSO validation scenarios.
 - interpretability: Scripts and associated data for evaluating biomarker concordance and signal stability between model pairs.
 - figures: Visualizations of benchmarking results, including performance boxplot, heatmaps and biomarker overlap distributions.
 
